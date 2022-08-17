@@ -1,8 +1,7 @@
 {
   "name": "dimension",
-  "homepage": "https://cwong6854.github.io/portfolio_v2/",
-  "version": "0.1.0",
   "homepage": ".",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "gh-pages": "^4.0.0",
