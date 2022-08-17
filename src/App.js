@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Header, Main, Article} from './components'
 import Body from "./components/Body/Body.js";
 import AboutMe from './Sections/AboutMe/AboutMe';
+import linkedin_photo from "./Sections/AboutMe/linkedin_photo.png"
 
 
 class App extends Component {
@@ -19,14 +20,14 @@ class App extends Component {
 					</Main> */}
 					<footer>
 						
-						<p className='learn-more actions stacked'><a href="#about" class="big wide smooth-scroll-middle">Learn More</a></p>
+						<p className='learn-more actions stacked'><a href="#about" className="big wide smooth-scroll-middle">Learn More</a></p>
 					</footer>
 					{/* <footer id="footer">
 						<p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer> */}
 				</section>
 			</div>
-			<AboutMe img="/images/linkedin_photo.png" />
+			<AboutMe img={linkedin_photo} />
 			<Body/>	
 			<footer id='footer'>
 				<p className="copyright">&copy; Design: <a href="https://html5up.net" target={"_blank"}>HTML5 UP</a>.</p>
