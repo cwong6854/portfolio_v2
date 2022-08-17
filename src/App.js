@@ -19,7 +19,7 @@ class App extends Component {
 					</Main> */}
 					<footer>
 						
-						<p className='learn-more actions stacked'><a href="#about" class="button big wide smooth-scroll-middle">Learn More</a></p>
+						<p className='learn-more actions stacked'><a href="#about" class="big wide smooth-scroll-middle">Learn More</a></p>
 					</footer>
 					{/* <footer id="footer">
 						<p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
