@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio_v2/static/css/main.98248c3e.css",
-    "main.js": "/portfolio_v2/static/js/main.095350e2.js",
+    "main.js": "/portfolio_v2/static/js/main.a0fcb309.js",
     "static/media/pley_website.png": "/portfolio_v2/static/media/pley_website.cbae456cf83b2e8d9c0b.png",
     "static/media/fontawesome-webfont.svg?v=4.6.3": "/portfolio_v2/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/linkedin_photo.png": "/portfolio_v2/static/media/linkedin_photo.a50ad69a94338f799488.png",
     "static/media/rimble_website.png": "/portfolio_v2/static/media/rimble_website.33f878a3ca92a74641e3.png",
     "static/media/react_logo.png": "/portfolio_v2/static/media/react_logo.81ed438b18e24116794d.png",
     "static/media/fontawesome-webfont.ttf?v=4.6.3": "/portfolio_v2/static/media/fontawesome-webfont.f0af1680f082547a7aae.ttf",
-    "static/media/CURTIS_WONG_RESUME_FALL2022.pdf": "/portfolio_v2/static/media/CURTIS_WONG_RESUME_FALL2022.70e042ca4944e6b664d8.pdf",
+    "static/media/CURTIS_WONG_RESUME_FALL2022.pdf": "/portfolio_v2/static/media/CURTIS_WONG_RESUME_FALL2022.b73e34b4e4cf7df5e5e0.pdf",
     "static/media/mongodb_logo.png": "/portfolio_v2/static/media/mongodb_logo.2f81ed7ec1fd818da1b5.png",
     "static/media/fontawesome-webfont.woff?v=4.6.3": "/portfolio_v2/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
     "static/media/fontawesome-webfont.eot": "/portfolio_v2/static/media/fontawesome-webfont.09b9015b1ecaf95655b1.eot",
@@ -29,10 +29,10 @@
     "static/media/aws_logo.svg": "/portfolio_v2/static/media/aws_logo.6c9e94255a6ca4d791f3dafd9675a055.svg",
     "index.html": "/portfolio_v2/index.html",
     "main.98248c3e.css.map": "/portfolio_v2/static/css/main.98248c3e.css.map",
-    "main.095350e2.js.map": "/portfolio_v2/static/js/main.095350e2.js.map"
+    "main.a0fcb309.js.map": "/portfolio_v2/static/js/main.a0fcb309.js.map"
   },
   "entrypoints": [
     "static/css/main.98248c3e.css",
-    "static/js/main.095350e2.js"
+    "static/js/main.a0fcb309.js"
   ]
 }
