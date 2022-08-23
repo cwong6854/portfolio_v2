@@ -1,10 +1,11 @@
 .contact {
     position: relative;
-
 }
 
+.contact:before {
+    height: 100%;
+}
 .contact::after {
-    width: 100%;
     background-image: url("../../../assets/images/bg.jpg");
     position: absolute;
     content: "";
@@ -13,8 +14,8 @@
     bottom: 0;
     right: 0;
     z-index:-1;
-
     opacity: 0.5;
+    background-repeat: no-repeat;
 }
 
 
@@ -29,7 +30,6 @@
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center; */
-    padding: 4rem 2rem 6rem 2rem;
     -moz-justify-content: center;
     -webkit-justify-content: center;
     -ms-justify-content: center;
@@ -59,12 +59,17 @@
     text-decoration: none;
 }
 
+.contact-list-link:hover {
+    text-decoration: underline;
+}
+
 .contact-form {
     width: 400px;
     min-width: 40%;
     background: white;
     border-radius: 10px;
     padding: 1rem 2rem 0 2rem;
+    margin-bottom: 100px;
 }
 
 .contact-label {

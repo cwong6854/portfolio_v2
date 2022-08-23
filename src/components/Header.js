@@ -5,9 +5,6 @@ export default (props) => {
  return (
 	 
 	<header id="header">
-		{/* <div className="logo">
-			<span className="icon fa-diamond"></span>
-		</div> */}
 		<div className="content">
 			<div className="inner">
 				<h1>Curtis Wong</h1>

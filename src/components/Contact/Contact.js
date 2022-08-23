@@ -15,6 +15,8 @@ const Contact = () => {
             }, (err) => {
                 console.log(err.text);
             });
+
+            document.getElementById('contact-forms').reset();
     };
 
     return (
@@ -31,7 +33,7 @@ const Contact = () => {
                     <p><a className="contact-list-link" href={resume} target={"_blank"}>Resume</a></p>
                 </div>
                 <div className="contact-form">
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form id="contact-forms" ref={form} onSubmit={sendEmail}>
                         <label className='contact-label'>Full Name</label>
                         <input className='contact-field' type="text" name="fullName"></input>
                         <label className='contact-label'>Email</label>
