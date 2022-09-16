@@ -1,5 +1,7 @@
 .contact {
     position: relative;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contact:before {
@@ -7,6 +9,9 @@
 }
 .contact::after {
     background-image: url("../../../assets/images/bg.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
     position: absolute;
     content: "";
     top: 0;
