@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import React, {useRef} from 'react';
-import resume from "../../assets/images/CURTIS_WONG_RESUME_FALL2022.pdf";
+import resume from "../../assets/images/CURTIS_WONG_RESUME.pdf";
 import "./css/contact.css"
 
 const Contact = () => {

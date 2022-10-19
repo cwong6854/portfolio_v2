@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
-import resume from "../../assets/images/CURTIS_WONG_RESUME_FALL2022.pdf";
+import resume from "../../assets/images/CURTIS_WONG_RESUME.pdf";
 
 const AboutMe = (props) => {
     return (
