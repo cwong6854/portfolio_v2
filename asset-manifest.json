@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.462603be.css",
+    "main.css": "/static/css/main.f332d34d.css",
     "main.js": "/static/js/main.bddf0e60.js",
     "static/media/pley_website.png": "/static/media/pley_website.cbae456cf83b2e8d9c0b.png",
     "static/media/fontawesome-webfont.svg?v=4.6.3": "/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
@@ -28,11 +28,11 @@
     "static/media/js_logo.png": "/static/media/js_logo.266bd9fb2663dcc057b4.png",
     "static/media/aws_logo.svg": "/static/media/aws_logo.6c9e94255a6ca4d791f3dafd9675a055.svg",
     "index.html": "/index.html",
-    "main.462603be.css.map": "/static/css/main.462603be.css.map",
+    "main.f332d34d.css.map": "/static/css/main.f332d34d.css.map",
     "main.bddf0e60.js.map": "/static/js/main.bddf0e60.js.map"
   },
   "entrypoints": [
-    "static/css/main.462603be.css",
+    "static/css/main.f332d34d.css",
     "static/js/main.bddf0e60.js"
   ]
 }

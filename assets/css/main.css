@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		/* overflow: hidden; */
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -249,7 +250,7 @@
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
+		/* -webkit-overflow-scrolling: touch; */
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
@@ -259,7 +260,7 @@
 			display: block;
 			line-height: 1.75;
 			padding: 1rem 1.5rem;
-			overflow-x: auto;
+			/* overflow-x: auto; */
 		}
 
 	hr {
@@ -726,8 +727,8 @@
 		}
 
 			ul.icons li {
-				display: inline-block;
-				padding: 0 0.75em 0 0;
+				display: flex;
+				padding: 0 0.75em 1em 0;
 			}
 
 				ul.icons li:last-child {
@@ -736,21 +737,21 @@
 
 				ul.icons li a {
 					border-radius: 100%;
-					box-shadow: inset 0 0 0 1px #ffffff;
-					display: inline-block;
+					/* box-shadow: inset 0 0 0 1px #ffffff; */
+					/* display: inline-block; */
 					height: 2.25rem;
 					line-height: 2.25rem;
 					text-align: center;
 					width: 2.25rem;
 				}
-
+/* 
 					ul.icons li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
 
 					ul.icons li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
-					}
+					} */
 
 		ul.actions {
 			cursor: default;
@@ -872,8 +873,8 @@
 /* Table */
 
 	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+		/* -webkit-overflow-scrolling: touch; */
+		/* overflow-x: auto; */
 	}
 
 	table {
@@ -1083,10 +1084,12 @@
 		}
 
 		#bg:after {
-			-moz-transform: scale(1.125);
+			/* Commented out because scale would push title page section down */
+
+			/* -moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
-			transform: scale(1.125);
+			transform: scale(1.125); */
 			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
@@ -1205,14 +1208,16 @@
 		}
 
 			#header > *:before {
-				content: '';
+				/* This is the vertical line under Title Name */
+
+				/* content: '';
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: #ffffff; */
 			}
 
 		#header > :first-child {
