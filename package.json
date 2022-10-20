@@ -1,7 +1,7 @@
 {
   "name": "dimension",
-  "homepage": "curtiswong.dev",
   "version": "0.1.0",
+  "homepage": "https://curtiswong.dev/",
   "private": true,
   "devDependencies": {
     "gh-pages": "^4.0.0",
@@ -23,7 +23,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "FAST_REFRESH=false react-scripts start",
+    "start": "FAST_REFRESH=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

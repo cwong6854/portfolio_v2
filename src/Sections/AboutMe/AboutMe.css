@@ -7300,11 +7300,11 @@
 		@media screen and (max-width: 1280px) {
 
 			.items.style1.small > *:nth-child(-n + 4) {
-				border-top-width: 1px;
+				border-top-width: 0px;
 			}
 
 			.items.style1.small > *:nth-child(4n + 1) {
-				border-left-width: 1px;
+				border-left-width: 0px;
 			}
 
 			.items.style1.small > * {
@@ -7325,11 +7325,11 @@
 		@media screen and (max-width: 980px) {
 
 			.items.style1.medium > *:nth-child(-n + 3) {
-				border-top-width: 1px;
+				border-top-width: 0px;
 			}
 
 			.items.style1.medium > *:nth-child(3n + 1) {
-				border-left-width: 1px;
+				border-left-width: 0px;
 			}
 
 			.items.style1.medium > * {
@@ -7346,11 +7346,11 @@
 				}
 
 			.items.style1.small > *:nth-child(-n + 3) {
-				border-top-width: 1px;
+				border-top-width: 0px;
 			}
 
 			.items.style1.small > *:nth-child(3n + 1) {
-				border-left-width: 1px;
+				border-left-width: 0px;
 			}
 
 			.items.style1.small > * {
@@ -7866,7 +7866,8 @@
 	#wrapper {
 		background-color: inherit;
 		width: 100%;
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
+		overflow: hidden;
 	}
 
 		#wrapper > .invert {
