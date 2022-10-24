@@ -2031,6 +2031,7 @@
 		border: none;
 		border: solid 1px;
 		/* color: inherit; */
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 0.825rem;

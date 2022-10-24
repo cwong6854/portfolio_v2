@@ -8,14 +8,14 @@ import linkedin_photo from "./Sections/AboutMe/linkedin_photo.png"
 class App extends Component {
 
 	render() {
-		
+
 	return (
 	<div>
 		<div id='bg'>
 			<section id="wrapper">
 				<Header/>
 				<footer>
-					<p className='learn-more actions stacked'><a href="#about" className="big wide smooth-scroll-middle">Learn More</a></p>
+					<p className='learn-more actions stacked'><a href="#about">Learn More</a></p>
 				</footer>
 			</section>
 		</div>
