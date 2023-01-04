@@ -89,6 +89,8 @@
 .image-logo-container {
     display: flex;
     justify-content: center;
+    height: 30vh;
+    width: 100%;
 }
 
 .image-logo {

@@ -11,7 +11,7 @@ const AboutMe = (props) => {
 
             <div className='content'>
                 <h1 className='content-description'>About Me</h1>
-                <p className='content-description'>Hello! I am a proud first-generation college student of immigrant parents originally from San Francisco, CA majoring in Data Science and Economics at UC Berkeley with an emphasis in Computer Science currently breaking into tech and pursuing roles in software/IT, engineering and data science. Through utilizing software and engineering tools, I strive to contribute my knowledge and skillsets to improve modern-day technology and to help innovate products and make an impact on the world.</p>
+                <p className='content-description'>Hello! I am a proud first-generation college student of immigrant parents originally from San Francisco, CA majoring in Data Science at UC Berkeley with an emphasis in Computer Science currently breaking into tech and pursuing roles in software/IT, engineering and data science. Through utilizing software and engineering tools, I strive to contribute my knowledge and skillsets to improve modern-day technology and to help innovate products and make an impact on the world.</p>
                 <div className='content-links'>
                     <ul className="icons">
                         <li><a className='icon-text' href={resume} target={'_blank'}><FontAwesomeIcon icon={faUserCircle} size='2x'/>Resume</a></li>

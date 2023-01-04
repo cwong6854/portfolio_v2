@@ -29,6 +29,7 @@
 
 .content {
 	font-family: "DM Sans";
+	/* margin: 20px; */
 	/* justify-content: center; */
 
 }
@@ -4422,7 +4423,7 @@
 	}
 
 		.spotlight.style1 .content {
-			/* padding: 7rem 7rem 5rem 7rem ; */
+			padding: 7rem 7rem 5rem 7rem;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -7440,11 +7441,11 @@
 			}
 
 			.items.style1.big > :first-child, .items.style1.medium > :first-child, .items.style1.small > :first-child {
-				padding-top: 0;
+				/* padding-top: 0; */
 			}
 
 			.items.style1.big > :last-child, .items.style1.medium > :last-child, .items.style1.small > :last-child {
-				padding-bottom: 0;
+				/* padding-bottom: 0; */
 			}
 
 				.items.style1.big > :last-child > .inner > :last-child, .items.style1.medium > :last-child > .inner > :last-child, .items.style1.small > :last-child > .inner > :last-child {

@@ -7,6 +7,13 @@ import linkedin_photo from "./Sections/AboutMe/linkedin_photo.png"
 
 class App extends Component {
 
+
+	onClickAbout(e) {
+		e && e.preventDefault(); // to avoid the link from redirecting
+		const elementToView = document.getElementById("about");
+		elementToView.scrollIntoView(); 
+		}
+
 	render() {
 
 	return (
@@ -15,7 +22,7 @@ class App extends Component {
 			<section id="wrapper">
 				<Header/>
 				<footer>
-					<p className='learn-more actions stacked'><a href="#about">Learn More</a></p>
+					<p className='learn-more actions stacked'><a className='more' href="#about" onClick={this.onClickAbout.bind(this)}>Learn More</a></p>
 				</footer>
 			</section>
 		</div>
