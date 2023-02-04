@@ -7203,7 +7203,7 @@
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			border-style: solid;
+			/* border-style: solid; */
 			border-left-width: 1px;
 			border-top-width: 1px;
 
@@ -7335,7 +7335,7 @@
 			}
 
 			.items.style1.medium > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
+				/* padding: 3.5rem 3.5rem 1.5rem 3.5rem ; */
 				width: 50%;
 			}
 
@@ -7381,7 +7381,7 @@
 			}
 
 			.items.style1.big > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
+				/* padding: 2.625rem 2.625rem 0.625rem 2.625rem ; */
 				width: 100%;
 			}
 
@@ -7402,7 +7402,7 @@
 			}
 
 			.items.style1.medium > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
+				/* padding: 2.625rem 2.625rem 0.625rem 2.625rem ; */
 				width: 100%;
 			}
 

@@ -1904,6 +1904,63 @@ ul.actions {
 
 	}
 
+
+	section-image {
+		/* display: block; */
+	
+		width: 35vw;
+		min-width: 15rem;
+		margin: 0;
+		padding: 0;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+	}
+	
+	.image-link .section-image {
+		height: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.section-image:hover {
+		filter:opacity(0.7);
+		cursor: pointer;
+		transition: 0.2s;
+	}
+	
+	
+	/* Item (Logos) */
+	
+	.items-header {
+		background: #416FDF;
+		text-align: center;
+		padding-top: 3rem;
+		margin: 0;
+	}
+	
+	.items-container {
+		background-color: #416FDF;
+	}
+	
+	.image-logo-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* height: 30vh; */
+		width: 100%;
+	}
+	
+	.image-logo {
+		width: auto;
+		height: 100px;
+	}
 /* First */
 
 
